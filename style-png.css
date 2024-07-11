@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Bangers Cyrillic;
+  src: url(bangerscyrillic.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100..900&family=Jaldi:wght@400;700&display=swap');
+body {
+  background-image: url(Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header>img{
+  width: 195px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw;
+}
+header>div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+header span {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    border: #4E1F06 solid 3px;
+    background: radial-gradient(#D89350, #D17226);
+}
+div:hover>span {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+}
+.animals {
+    transform: translate(122px, -30px);
+    width: 200px;
+}
+span>div>p {
+    margin: 5px;
+}
+header span>a {
+    margin: 5px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+main>article{
+  width: 80vw;
+}
+main>article:first-child>img {
+  float: left;
+  margin: 0 5vw 5vw 0;
+  width: 37vw;
+}
+.bonus-content img {
+  float: right;
+  width: 30vw;
+  border: black 5px solid;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+}
+.bonus-content>div {
+  clear: both;
+}
+h1 {
+  font-family: Bangers Cyrillic;
+  font-size: 42px;
+  font-weight: 300;
+  color: #2E63A2;
+}
+.zagolovok2 {
+  font-family: Bangers Cyrillic;
+  font-size: 42px;
+  font-weight: 300;
+  color: #2E63A2;
+}
+  h2 {
+    font-size: 26px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #2E63A2;
+  }
+  p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+  footer>div.perehod {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0 0;
+  }
+  .knopki {
+    background: radial-gradient(#D17226, #A2450E);
+    border-radius: 30px;
+    border: #4E1F06 solid 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .knopki>p {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+  }
+  .knopki>img {
+    width: 50px;
+    fill: #4E1F06;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer>span img{
+    width: 25px;
+  }
+  footer>span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    background: radial-gradient(#D17226, #A2450E);
+    border-radius: 30px;
+    border: #4E1F06 solid 5px;
+    margin: 100px 0;
+  }
+  footer>span>div img {
+    margin: 0 10px;
+  }

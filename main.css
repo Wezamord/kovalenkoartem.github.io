@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Bangers Cyrillic;
+    src: url(bangerscyrillic.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jaldi:wght@400;700&family=Nanum+Brush+Script&display=swap');
+body {
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    margin: 0;
+}
+.fon {
+    width: 100%;
+}
+.logo {
+    width: 25%;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+}
+header>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo>img {
+  width: 100%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main>p {
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+main>div {
+  display: inline-block;
+  width: 70%;
+  position: relative;
+  margin: 10% 0 0 0;
+}
+main>div>img {
+  width: 100%;
+}
+.x {
+  width: 3%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.x>img {
+  width: 100%;
+}
+.x>div img {
+  width: 90px;
+}
+.ramka {
+  border: black solid 3px;
+}
+.x>div h2 {
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 5px 0;
+}
+.x>div p {
+  font-size: 12px;
+  text-align: center;
+}
+.x>div a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: #4E1F06 solid 5px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 3px;
+  background: radial-gradient(#D89350, #D17226);
+  width: 95px;
+}
+.x>div>div {
+  display: flex;
+  justify-content: center;
+}
+.x>div {
+  display: none;
+}
+.x:hover>div {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(#D89350, #D17226);
+  border-radius: 10px;
+  border: #4E1F06 solid 5px;
+  padding: 10px;
+}
+main>div>a>img {
+  width: 100%;
+}
+main>div>a {
+  width: 100px;
+  position: absolute;
+  right: 2%;
+  top: -7%;
+}
+.x1 {
+  top: 15%;
+  right: 12%;
+}
+.x2 {
+  top: 13%;
+  right: 16%;
+}
+.x3 {
+  top: 15%;
+  right: 18%;
+}
+.x4 {
+  top: 15%;
+  right: 27%;
+}
+.x6 {
+  top: 34%;
+  right: 44%;
+}
+.x7 {
+  top: 40%;
+  right: 35%;
+}
+.x8 {
+  top: 48%;
+  right: 41%;
+}
+.x9 {
+  top: 48%;
+  right: 36%;
+}
+.x10 {
+  top: 53%;
+  right: 33%;
+}
+.x11 {
+  top: 49%;
+  right: 29%;
+}
+h1 {
+    font-family: Bangers Cyrillic;
+    font-size: 42px;
+    font-weight: 300;
+    color: #2E63A2;
+  }
+  h2 {
+    font-size: 26px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2E63A2;
+  }
+  p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+  }
+  footer>div.perehod {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0 0;
+  }
+  .knopki {
+    background: radial-gradient(#D17226, #A2450E);
+    border-radius: 30px;
+    border: #4E1F06 solid 5px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .knopki>p {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  .knopki>img {
+    width: 50px;
+    fill: #4E1F06;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer>span img{
+    width: 25px;
+  }
+  footer>span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+    background: radial-gradient(#D17226, #A2450E);
+    border-radius: 30px;
+    border: #4E1F06 solid 5px;
+    margin: 100px 0;
+  }
+  footer>span>div img {
+    margin: 0 10px;
+  }
